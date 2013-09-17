@@ -1,6 +1,6 @@
 #QueueDr
 
 This is the application for finding doctors from
-[*QueueDr*][http://queueudr.com]
+[*QueueDr*](http://queueudr.com)
 
-by [Patrick Randolph][https://twitter.com/KanCityShuffle]
+by [Patrick Randolph](https://twitter.com/KanCityShuffle)
