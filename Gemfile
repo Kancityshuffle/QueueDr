@@ -5,7 +5,10 @@ gem 'rails', '4.0.0.rc2'
 
 group :production do
 	gem 'pg'
+
 end
+
+gem 'rails_12factor'
 
 group :development, :test do
 	gem 'sqlite3'
