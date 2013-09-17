@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-
+ruby '2.0.0'
 gem 'rails', '4.0.0.rc2'
 
 group :production do
@@ -11,7 +11,7 @@ group :development, :test do
 	gem 'sqlite3'
 end
 
-# Use SCSS for stylesheets
+# Use SCSS for stylesheetss
 gem 'sass-rails', '~> 4.0.0.rc2'
 
 # Use Uglifier as compressor for JavaScript assets
