@@ -1,0 +1,27 @@
+$baseFontFamily: 'Source Sans Pro', sans-serif;
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300);
+
+@import "bootstrap";
+
+body {
+
+	padding-top:60px;
+
+}
+@import 'bootstrap-responsive';
+
+.navbar-inner{
+
+	@include box-shadow(none !important);
+	border:0;
+	}
+
+.footer {
+
+	margin-top:50px;
+	color:$grayLight;
+	a{
+
+		color:$grayLight;
+	}
+}

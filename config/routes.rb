@@ -1,4 +1,18 @@
 QueueDr::Application.routes.draw do
+  
+  
+
+  
+  root 'pages#home'
+  get 'share' => 'pages#share'
+  get 'about' => 'pages#about'
+  get 'podiatrist' => 'pages#podiatrist'
+  get 'dermatologist' => 'pages#dermatologist'
+  get 'obgyn' => 'pages#obgyn'
+  get 'dentist' => 'pages#dentist'
+  get 'pcp' => 'pages#pcp'
+
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

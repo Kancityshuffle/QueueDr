@@ -1,0 +1,33 @@
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+ 
+      <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+ 
+      <!-- Be sure to leave the brand out there if you want it shown -->
+      <a class="brand" <%= link_to "QueueDr",root_path%></a>
+ 
+      <!-- Everything you want hidden at 940px or less, place within here -->
+      <div class="nav-collapse collapse">
+      <ul class="nav">
+	      <li><%= link_to "Podiatrist", podiatrist_path %></li>
+				<li><%= link_to "ObGyn", obgyn_path%></li>
+				<li><%= link_to "Dermatologist", dermatologist_path %></li> 
+				<li><%= link_to "Dentist", dentist_path %></li>
+				<li><%= link_to "Primary Care Physician", pcp_path %></li> 
+        <!-- .nav, .navbar-search, .navbar-form, etc -->
+      </ul>
+
+      <ul class="nav pull-right">
+	      <li><%= link_to "Tell Friends", '#' %></li>
+	    </ul>
+      </div>
+ 
+    </div>
+  </div>
+</div>
