@@ -3,6 +3,8 @@ QueueDr::Application.routes.draw do
   
 
   
+  devise_for :views
+  devise_for :users
   root 'pages#home'
   get 'share' => 'pages#share'
   get 'about' => 'pages#about'
