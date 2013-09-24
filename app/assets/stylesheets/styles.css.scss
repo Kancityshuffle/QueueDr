@@ -3,11 +3,15 @@ $baseFontFamily: 'Source Sans Pro', sans-serif;
 
 @import "bootstrap";
 
+
 body {
 
 	padding-top:60px;
+	background:#093445;
+	color:$red;
 
 }
+
 @import 'bootstrap-responsive';
 
 .navbar-inner{
@@ -19,9 +23,12 @@ body {
 .footer {
 
 	margin-top:50px;
-	color:$grayLight;
+
+
 	a{
 
-		color:$grayLight;
+		color:#ffffff;
 	}
+
+
 }

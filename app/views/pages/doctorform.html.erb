@@ -1,0 +1,50 @@
+<h2 style="color:#ffffff; font-size:30px;">Forget the headache, see the doctor now.</h2>
+
+<div class="span4">
+	<%= simple_form_for :users do |f| %>
+
+	<%= f.error_notification %>
+
+		<%= f.input :name, placeholder: 'Name', label: false %>
+		<%= f.input :tel, placeholder: 'Your telephone number', label: false %>
+		<%= f.select :doctortype, [['Dentist'],['Dermatologist'],['General Practioner'],['ObGyn'],['Podiatrist']]%>		
+		<%= f.select :insurance_provider_id, [['Anthem Blue Cross'],['Blue Shield of California'],['Cigna'],['Health Net'],['Kaiser Permanente of CA'],['Delta Dental'],['Humana'],['IHC Group'],['Nationwide Life Insurance Company'],['Security Life Insurance Company of America'],['United Concordia Dental'],['UnitedHealthOne'],['Chinese Community Health Plan'],['Sharp Health Plan'],['Western Health Advantage']]%>
+		
+		<%= f.submit "Get an appointment", class: "btn btn-large btn-success" %>
+	
+	<%end%>
+</div>
+
+		
+<!--
+
+<div class="row-fluid">
+	<div class="span8">
+
+			<div class="span4">
+
+			<img src="https://scontent-a-sjc.xx.fbcdn.net/hphotos-ash3/1240165_683452109376_1252564395_n.jpg" alt="Big Boat">
+			</div>
+			<div class="span4">
+			<img src="https://scontent-b-sjc.xx.fbcdn.net/hphotos-prn2/8201_655122082976_588031334_n.jpg" alt="Big Boat">
+			</div>
+			<p> Only MDs with have top ratings on review sites </p> 
+
+</div>
+
+	<div class="row-fluid">
+	<div class="span8">
+	
+			<div class="span4">
+			<img src="https://scontent-a-sjc.xx.fbcdn.net/hphotos-ash3/1240165_683452109376_1252564395_n.jpg" alt="Big Boat">
+			</div>
+			<div class="span4">
+			<img src="https://scontent-a-sjc.xx.fbcdn.net/hphotos-ash3/1240165_683452109376_1252564395_n.jpg" alt="Big Boat">
+			</div>
+			<p> Only MDs with waitlists that we help you skip </p>
+	</div>
+</div>
+</div>
+
+ </div>
+-->

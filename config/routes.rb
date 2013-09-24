@@ -3,8 +3,11 @@ QueueDr::Application.routes.draw do
   
 
   
+  resources :pins
+
   devise_for :views
   devise_for :users
+  
   root 'pages#home'
   get 'share' => 'pages#share'
   get 'about' => 'pages#about'
@@ -13,6 +16,7 @@ QueueDr::Application.routes.draw do
   get 'obgyn' => 'pages#obgyn'
   get 'dentist' => 'pages#dentist'
   get 'pcp' => 'pages#pcp'
+  get 'doctorform'=>'pages#doctorform'
 
   
   # The priority is based upon order of creation: first created -> highest priority.
